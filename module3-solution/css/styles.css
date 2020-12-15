@@ -1,0 +1,60 @@
+/** Navbar, overriding bootstraps default colors for background, borders, some elements position etc. **/
+#header-nav {
+  background-color: #F8F8F8;
+  border-color: #F8F8F8;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #F8F8F8;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #F8F8F8;
+}
+
+.navbar-nav {
+  margin: 0px -15px;
+}
+
+li {
+  border-bottom: 1px solid #000000;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li:hover {
+  background-color: #ffffff;
+}
+
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/** End navbar**/
+
+/** Main content **/
+h1 {
+  margin-bottom: 20px;
+}
+
+article {
+  padding: 5px 15px 10px 15px;
+  margin-bottom: 20px;
+  background-color: #dbd8c9;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+
+/** End main content **/
